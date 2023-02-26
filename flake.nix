@@ -10,9 +10,10 @@
         packages = [
           pkgs.nixpkgs-fmt
           pkgs.nil
+          pkgs.rustup
 
           pkgs.hyperfine
-          pkgs.rustup
+          pkgs.jq
         ];
       };
     };
